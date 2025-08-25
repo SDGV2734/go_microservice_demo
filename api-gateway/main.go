@@ -12,7 +12,7 @@ import (
 	consulapi "github.com/hashicorp/consul/api"
 )
 
-const gatewayPort = 8083
+const gatewayPort = 8080
 
 func main() {
 	// The handler function is responsible for all routing logic.
